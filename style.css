@@ -1,15 +1,43 @@
 header {
     background-color: aqua;
     color: black;
-    text-align: center;
-    
+    padding: 10px;
+    text-align: center 
 }
-nav{
-    background-color: aqua;
+nav a{
+   text-decoration: underline;
+    color: black;
 }
 nav ul{
     list-style-type: none;
+    text-align: center;
 }
 nav li{
-    display: ;
+    display: inline;
+    margin-right: 50px;
+}
+main{
+    padding: 20px;
+    color: rgb(47, 192, 192);
+}
+section{
+    margin-bottom: 20px;
+}
+footer{
+background-color: aqua;
+color: black;
+text-emphasis: none;
+padding: 15px;
+text-align: center;
+}
+p{
+    color: black;
+}
+main h2{
+    text-decoration: underline;
+}
+
+.foto{
+    border-style: dotted;
+    color: aqua;
 }
